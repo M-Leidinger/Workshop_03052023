@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+<property file="./00_workshop.conf"/>
+<sshexec 	host="${IP}"
+					username="${USERNAME}"
+					password="${PASSWORD}"
+					trust="yes"
+					failonerror="true"
+					command="unzip -o /opt/max/work/transfer.zip -d /opt/max/exec"/>
+</project>

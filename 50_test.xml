@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<property file="./00_workshop.conf"/>
+	<sshexec 	host="${IP}"
+						username="linux"
+						password="Indien1234"
+						trust="yes"
+						failonerror="true"
+						output="./05_transfer/testfile.MD5"
+						command="md5sum /opt/max/exec/leue_markus.jpg"/>
+	
+	<replaceregexp file="./05_transfer/testfile.MD5" match="  (.*)" replace=""/>					
+	<checksum file="./04_work/leue_markus.jpg" forceOverwrite="yes" format="MD5SUM"/>
+	<replaceregexp file="./04_work/leue_markus.jpg.MD5" match=" (.*)" replace=""/>
+	<loadfile property="local" 
+	srcFile = "./04_work/leue_markus.jpg.MD5"/>
+	<loadfile property="remote" 
+	srcFile = "./05_transfer/testfile.MD5"/>
+	<fail message="Warning Checksums don't match">
+		<condition>
+			<not
+			>
+				<equals arg1="${local}" arg2="${remote}"/>
+			</not>
+		</condition>
+	</fail>
+</project>

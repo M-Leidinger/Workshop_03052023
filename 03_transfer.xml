@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+<property file="./00_workshop.conf"/>
+<scp  todir="${USERNAME}:${PASSWORD}@${IP}:/opt/max/work"
+      trust="yes" verbose="true"
+      failonerror="true"
+      sftp="yes"
+	  file=".\05_transfer\transfer.zip"
+	  />
+</project>

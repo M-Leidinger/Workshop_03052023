@@ -1,0 +1,11 @@
+<project name="transfer_automat" default="basis_test" basedir=".">
+<property name="ip" value="aus conf Datei einlesen" />
+
+
+
+<target name="basis_test">
+
+<echo message="Entzippe die Daten"/>
+
+</target>
+</project>

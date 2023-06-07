@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+<delete file=".\05_transfer\transfer.zip" />
+	<zip destfile=".\05_transfer\transfer.zip"
+     basedir=".\04_work"/>
+</project>

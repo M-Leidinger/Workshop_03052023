@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<move todir=".\04_work">
+	  <fileset dir=".\03_dev">
+		<include name="*"/>
+	  </fileset>
+	</move>
+</project>
