@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+<property file="./00_workshop.conf"/>
+<scp  todir="${USERNAME}:${PASSWORD}@${IP}:/home/linux/Dokumente/Workshop/apache-tomcat-9.0.74/webapps"
+      trust="yes" verbose="true"
+      failonerror="true"
+      sftp="yes"
+	  file="./maxapp.war"
+	  />
+</project>

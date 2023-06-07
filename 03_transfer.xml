@@ -2,10 +2,10 @@
 
 <project>
 <property file="./00_workshop.conf"/>
-<scp  todir="${USERNAME}:${PASSWORD}@${IP}:/opt/max/work"
+<scp  todir="${USERNAME}:${PASSWORD}@${IP}:/home/linux/Dokumente/Workshop/apache-tomcat-9.0.74/webapps/"
       trust="yes" verbose="true"
       failonerror="true"
       sftp="yes"
-	  file=".\05_transfer\transfer.zip"
+	  file="maxapp.war"
 	  />
 </project>
