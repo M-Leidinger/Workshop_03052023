@@ -1,0 +1,4 @@
+127.0.0.1 - - [25/May/2023:13:16:44 +0200] "GET /maxapp/index.jsp HTTP/1.1" 200 224
+127.0.0.1 - - [25/May/2023:13:18:28 +0200] "GET /maxapp/bildseite.jsp HTTP/1.1" 200 195
+127.0.0.1 - - [25/May/2023:13:18:28 +0200] "GET /maxapp/patrick.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [25/May/2023:13:37:25 +0200] "GET /maxapp/bildseite.jsp HTTP/1.1" 200 195

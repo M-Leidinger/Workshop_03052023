@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	 <exec executable="powershell">
+        <arg value="./apache-tomcat-9.0.74/apache-tomcat-9.0.74/bin/shutdown.bat"/>
+    </exec>
+</project>

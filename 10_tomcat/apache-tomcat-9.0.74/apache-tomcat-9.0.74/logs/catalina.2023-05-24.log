@@ -1,0 +1,599 @@
+24-May-2023 16:21:38.023 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:21:38.033 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:21:38.064 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 16:21:38.072 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 16:21:38.284 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 16:21:38.300 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [414] milliseconds
+24-May-2023 16:21:38.331 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 16:21:38.331 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 16:21:38.378 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 16:21:38.629 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [251] ms
+24-May-2023 16:21:38.645 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp]
+24-May-2023 16:21:38.660 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp] has finished in [15] ms
+24-May-2023 16:21:38.660 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 16:21:38.707 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [47] ms
+24-May-2023 16:21:38.707 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 16:21:39.968 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [1.261] ms
+24-May-2023 16:21:39.968 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 16:21:40.015 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [47] ms
+24-May-2023 16:21:40.015 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 16:21:40.062 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [47] ms
+24-May-2023 16:21:40.062 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 16:21:40.094 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [32] ms
+24-May-2023 16:21:40.094 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:21:40.141 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [1842] milliseconds
+24-May-2023 16:24:50.479 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 16:24:50.479 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:24:50.479 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 16:24:50.510 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:24:50.526 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:24:54.156 SCHWERWIEGEND [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+24-May-2023 16:27:11.001 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:27:11.008 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 16:27:11.014 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 16:27:11.204 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 16:27:11.213 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [334] milliseconds
+24-May-2023 16:27:11.236 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 16:27:11.236 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 16:27:11.298 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 16:27:11.316 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+24-May-2023 16:27:11.579 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [281] ms
+24-May-2023 16:27:11.579 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp]
+24-May-2023 16:27:11.598 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp] has finished in [19] ms
+24-May-2023 16:27:11.610 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 16:27:11.642 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [32] ms
+24-May-2023 16:27:11.642 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 16:27:12.790 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [1.148] ms
+24-May-2023 16:27:12.790 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 16:27:12.837 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [47] ms
+24-May-2023 16:27:12.837 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 16:27:12.885 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [48] ms
+24-May-2023 16:27:12.885 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 16:27:12.917 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [32] ms
+24-May-2023 16:27:12.917 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:27:12.963 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [1744] milliseconds
+24-May-2023 16:29:00.789 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 16:29:00.789 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:29:00.789 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 16:29:00.809 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:29:00.825 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:29:16.460 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:29:16.464 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 16:29:16.477 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 16:29:16.646 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 16:29:16.663 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [330] milliseconds
+24-May-2023 16:29:16.687 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 16:29:16.687 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 16:29:16.703 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 16:29:16.926 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [223] ms
+24-May-2023 16:29:16.930 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp]
+24-May-2023 16:29:16.947 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp] has finished in [17] ms
+24-May-2023 16:29:16.947 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 16:29:16.976 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [29] ms
+24-May-2023 16:29:16.976 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 16:29:17.241 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [265] ms
+24-May-2023 16:29:17.241 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 16:29:17.263 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [22] ms
+24-May-2023 16:29:17.263 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 16:29:17.289 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [26] ms
+24-May-2023 16:29:17.289 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 16:29:17.312 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [23] ms
+24-May-2023 16:29:17.312 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:29:17.352 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [694] milliseconds
+24-May-2023 16:30:07.658 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 16:30:07.658 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:30:07.658 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 16:30:07.680 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:30:07.696 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:31:04.356 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:31:04.363 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 16:31:04.369 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 16:31:04.530 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 16:31:04.545 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [319] milliseconds
+24-May-2023 16:31:04.580 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 16:31:04.580 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 16:31:04.630 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 16:31:04.645 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+24-May-2023 16:31:04.863 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [233] ms
+24-May-2023 16:31:04.863 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp]
+24-May-2023 16:31:04.894 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp] has finished in [31] ms
+24-May-2023 16:31:04.894 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 16:31:04.913 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [19] ms
+24-May-2023 16:31:04.913 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 16:31:05.174 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [261] ms
+24-May-2023 16:31:05.174 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 16:31:05.206 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [32] ms
+24-May-2023 16:31:05.206 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 16:31:05.221 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [15] ms
+24-May-2023 16:31:05.221 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 16:31:05.245 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [24] ms
+24-May-2023 16:31:05.253 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:31:05.284 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [737] milliseconds
+24-May-2023 16:31:29.796 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 16:31:29.796 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:31:29.807 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 16:31:29.825 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:31:29.837 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:32:48.363 SCHWERWIEGEND [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+24-May-2023 16:32:52.990 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:32:52.994 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 16:32:52.997 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 16:32:53.169 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 16:32:53.185 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [330] milliseconds
+24-May-2023 16:32:53.214 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 16:32:53.214 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 16:32:53.265 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 16:32:53.280 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+24-May-2023 16:32:53.496 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [231] ms
+24-May-2023 16:32:53.496 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp]
+24-May-2023 16:32:53.528 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\20_webjsp] has finished in [32] ms
+24-May-2023 16:32:53.530 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 16:32:53.547 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [17] ms
+24-May-2023 16:32:53.547 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 16:32:53.823 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [276] ms
+24-May-2023 16:32:53.823 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 16:32:53.847 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [24] ms
+24-May-2023 16:32:53.847 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 16:32:53.863 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [16] ms
+24-May-2023 16:32:53.863 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 16:32:53.880 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [17] ms
+24-May-2023 16:32:53.894 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:32:53.930 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [746] milliseconds
+24-May-2023 16:33:21.293 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 16:33:21.293 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:33:21.293 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 16:33:21.318 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:33:21.334 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:35:50.747 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:35:50.753 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 16:35:50.759 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 16:35:50.926 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 16:35:50.947 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [325] milliseconds
+24-May-2023 16:35:50.973 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 16:35:50.973 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 16:35:51.021 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 16:35:51.259 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [226] ms
+24-May-2023 16:35:51.259 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 16:35:51.280 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [21] ms
+24-May-2023 16:35:51.280 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 16:35:51.548 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [268] ms
+24-May-2023 16:35:51.548 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 16:35:51.564 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [16] ms
+24-May-2023 16:35:51.564 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 16:35:51.597 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [33] ms
+24-May-2023 16:35:51.597 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 16:35:51.614 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [17] ms
+24-May-2023 16:35:51.614 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:35:51.663 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [715] milliseconds
+24-May-2023 16:51:33.150 INFORMATION [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/maxapp]
+24-May-2023 16:51:33.385 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 16:51:33.385 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:51:33.401 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 16:51:33.412 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:51:33.413 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:51:48.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:51:48.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 16:51:48.481 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 16:51:48.672 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 16:51:48.688 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [386] milliseconds
+24-May-2023 16:51:48.717 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 16:51:48.717 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 16:51:48.771 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 16:51:49.047 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [276] ms
+24-May-2023 16:51:49.047 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 16:51:49.085 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [38] ms
+24-May-2023 16:51:49.085 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 16:51:50.263 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [1.178] ms
+24-May-2023 16:51:50.263 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 16:51:50.310 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [47] ms
+24-May-2023 16:51:50.310 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 16:51:50.356 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [46] ms
+24-May-2023 16:51:50.356 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 16:51:50.372 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [16] ms
+24-May-2023 16:51:50.388 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:51:50.435 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [1741] milliseconds
+24-May-2023 16:54:11.400 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 16:54:11.400 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:54:11.416 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 16:54:11.431 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:54:11.444 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:54:36.822 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:54:36.828 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 16:54:36.868 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 16:54:36.875 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 16:54:37.050 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 16:54:37.067 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [381] milliseconds
+24-May-2023 16:54:37.100 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 16:54:37.100 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 16:54:37.150 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 16:54:37.177 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+24-May-2023 16:54:37.434 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [284] ms
+24-May-2023 16:54:37.434 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 16:54:37.478 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [44] ms
+24-May-2023 16:54:37.478 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 16:54:38.650 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [1.172] ms
+24-May-2023 16:54:38.650 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 16:54:38.688 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [38] ms
+24-May-2023 16:54:38.688 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 16:54:38.736 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [48] ms
+24-May-2023 16:54:38.736 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 16:54:38.767 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [31] ms
+24-May-2023 16:54:38.767 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 16:54:38.814 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [1738] milliseconds
+24-May-2023 17:03:48.122 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 17:03:48.122 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:03:48.133 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 17:03:48.156 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:03:48.161 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:04:22.356 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 17:04:22.361 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 17:04:22.361 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 17:04:22.362 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 17:04:22.362 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 17:04:22.362 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 17:04:22.362 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 17:04:22.362 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 17:04:22.362 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 17:04:22.362 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:04:22.362 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:04:22.364 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 17:04:22.373 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 17:04:22.539 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 17:04:22.554 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [327] milliseconds
+24-May-2023 17:04:22.573 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 17:04:22.573 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 17:04:22.640 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 17:04:22.650 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+24-May-2023 17:04:22.890 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [250] ms
+24-May-2023 17:04:22.890 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 17:04:22.906 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [16] ms
+24-May-2023 17:04:22.906 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 17:04:23.174 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [268] ms
+24-May-2023 17:04:23.174 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 17:04:23.205 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [31] ms
+24-May-2023 17:04:23.205 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 17:04:23.236 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [31] ms
+24-May-2023 17:04:23.236 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 17:04:23.252 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [16] ms
+24-May-2023 17:04:23.256 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:04:23.300 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [743] milliseconds
+24-May-2023 17:06:58.740 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 17:06:58.740 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:06:58.749 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 17:06:58.766 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:06:58.778 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:07:11.684 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:07:11.690 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 17:07:11.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 17:07:11.698 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:07:11.698 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:07:11.698 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 17:07:11.700 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 17:07:11.870 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 17:07:11.886 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [331] milliseconds
+24-May-2023 17:07:11.908 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 17:07:11.908 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 17:07:11.974 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 17:07:11.987 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+24-May-2023 17:07:12.233 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [259] ms
+24-May-2023 17:07:12.233 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 17:07:12.257 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [24] ms
+24-May-2023 17:07:12.257 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 17:07:12.525 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [268] ms
+24-May-2023 17:07:12.525 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 17:07:12.556 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [31] ms
+24-May-2023 17:07:12.556 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 17:07:12.574 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [18] ms
+24-May-2023 17:07:12.574 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 17:07:12.600 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [26] ms
+24-May-2023 17:07:12.603 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:07:12.651 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [764] milliseconds
+24-May-2023 17:09:12.760 INFORMATION [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/maxapp]
+24-May-2023 17:09:12.843 INFORMATION [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 17:09:12.919 INFORMATION [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [75] ms
+24-May-2023 17:10:23.016 INFORMATION [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/maxapp]
+24-May-2023 17:10:23.085 INFORMATION [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 17:10:23.123 INFORMATION [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [38] ms
+24-May-2023 17:14:04.655 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 17:14:04.655 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:14:04.665 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 17:14:04.676 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:14:04.690 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:14:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 17:14:19.656 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:14:19.657 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:14:19.704 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 17:14:19.705 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 17:14:19.705 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 17:14:19.705 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 17:14:19.705 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 17:14:19.705 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 17:14:19.706 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 17:14:19.706 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 17:14:19.706 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 17:14:19.706 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 17:14:19.706 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:14:19.707 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:14:19.707 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 17:14:19.709 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 17:14:19.924 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 17:14:19.941 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [426] milliseconds
+24-May-2023 17:14:19.969 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 17:14:19.969 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 17:14:20.036 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 17:14:20.046 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+24-May-2023 17:14:20.357 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [320] ms
+24-May-2023 17:14:20.357 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 17:14:20.406 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [49] ms
+24-May-2023 17:14:20.406 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 17:14:21.786 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [1.380] ms
+24-May-2023 17:14:21.786 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 17:14:21.833 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [47] ms
+24-May-2023 17:14:21.833 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 17:14:21.881 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [48] ms
+24-May-2023 17:14:21.882 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 17:14:21.910 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [28] ms
+24-May-2023 17:14:21.915 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:14:21.959 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [2017] milliseconds
+24-May-2023 17:14:29.761 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-May-2023 17:14:29.761 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:14:29.770 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2023 17:14:29.786 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:14:29.805 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:14:36.428 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/9.0.74
+24-May-2023 17:14:36.430 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 13 2023 08:10:39 UTC
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.74.0
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:14:36.431 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:14:36.438 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2023 17:14:36.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2023 17:14:36.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2023 17:14:36.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2023 17:14:36.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2023 17:14:36.439 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\conf\logging.properties
+24-May-2023 17:14:36.440 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2023 17:14:36.440 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2023 17:14:36.440 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2023 17:14:36.440 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2023 17:14:36.440 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:14:36.441 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74
+24-May-2023 17:14:36.441 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=.\apache-tomcat-9.0.74\apache-tomcat-9.0.74\temp
+24-May-2023 17:14:36.444 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Workshop_03052023\10_tomcat\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files\Git\cmd;C:\Users\Max.Leidinger1\AppData\Local\Microsoft\WindowsApps;;C:\Users\Max.Leidinger1\AppData\Local\Programs\Microsoft VS Code\bin;.]
+24-May-2023 17:14:36.640 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+24-May-2023 17:14:36.658 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [379] milliseconds
+24-May-2023 17:14:36.686 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2023 17:14:36.687 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.74]
+24-May-2023 17:14:36.758 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war]
+24-May-2023 17:14:36.773 INFORMATION [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+24-May-2023 17:14:37.038 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\maxapp.war] has finished in [278] ms
+24-May-2023 17:14:37.039 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs]
+24-May-2023 17:14:37.067 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\docs] has finished in [28] ms
+24-May-2023 17:14:37.067 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples]
+24-May-2023 17:14:37.418 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\examples] has finished in [351] ms
+24-May-2023 17:14:37.419 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager]
+24-May-2023 17:14:37.460 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\host-manager] has finished in [41] ms
+24-May-2023 17:14:37.461 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager]
+24-May-2023 17:14:37.499 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\manager] has finished in [38] ms
+24-May-2023 17:14:37.500 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT]
+24-May-2023 17:14:37.524 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps\ROOT] has finished in [24] ms
+24-May-2023 17:14:37.527 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2023 17:14:37.580 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [921] milliseconds
+24-May-2023 17:14:59.404 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.

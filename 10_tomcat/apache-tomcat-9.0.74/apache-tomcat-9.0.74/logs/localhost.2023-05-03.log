@@ -1,0 +1,1025 @@
+03-May-2023 13:59:08.335 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+03-May-2023 13:59:08.335 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+03-May-2023 13:59:08.335 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@31024624')
+03-May-2023 14:00:13.407 INFORMATION [Thread-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+03-May-2023 14:00:13.408 INFORMATION [Thread-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+03-May-2023 14:08:27.133 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+03-May-2023 14:08:27.133 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+03-May-2023 14:08:27.149 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@61861a29')
+03-May-2023 14:08:37.355 INFORMATION [Thread-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+03-May-2023 14:08:37.355 INFORMATION [Thread-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+03-May-2023 14:35:14.348 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+03-May-2023 14:35:14.348 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+03-May-2023 14:35:14.348 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@31024624')
+03-May-2023 14:35:30.842 INFORMATION [Thread-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+03-May-2023 14:35:30.842 INFORMATION [Thread-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+03-May-2023 14:37:36.466 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+03-May-2023 14:37:36.466 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+03-May-2023 14:37:36.466 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@61861a29')
+03-May-2023 14:38:52.884 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+03-May-2023 14:38:52.884 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+03-May-2023 15:04:52.436 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+03-May-2023 15:04:52.436 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+03-May-2023 15:04:52.436 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@791cbf87')
+03-May-2023 15:09:24.543 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+03-May-2023 15:09:24.543 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+03-May-2023 15:24:00.847 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+03-May-2023 15:24:00.851 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+03-May-2023 15:24:00.855 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@56db847e')
+03-May-2023 16:06:53.644 SCHWERWIEGEND [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timerclass cannot be resolved
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass; %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert "( )" to complete Expression
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass; %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass; %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timerclass cannot be resolved
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass; %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert "( )" to complete Expression
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass; %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass; %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:07:49.964 SCHWERWIEGEND [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timerclass cannot be resolved
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass(); %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass(); %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timerclass cannot be resolved
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass(); %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass(); %>
+10: <%= timer.giveTime%>
+11: 
+12: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:08:57.294 SCHWERWIEGEND [http-nio-8080-exec-12] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timerclass cannot be resolved
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass(); %>
+10: <%= timer.giveTime()%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass(); %>
+10: <%= timer.giveTime()%>
+11: 
+12: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timerclass cannot be resolved
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass(); %>
+10: <%= timer.giveTime()%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timerclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timerclass timer = new timerclass(); %>
+10: <%= timer.giveTime()%>
+11: 
+12: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:10:34.916 SCHWERWIEGEND [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timeclass timer = new timeclass(); %>
+10: <%= timer.giveTime()%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timeclass timer = new timeclass(); %>
+10: <%= timer.giveTime()%>
+11: 
+12: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timeclass timer = new timeclass(); %>
+10: <%= timer.giveTime()%>
+11: 
+12: </body>
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+6: 
+7: <h1>My First Heading</h1>
+8: <p>My first paragraph.</p>
+9: <% timeclass timer = new timeclass(); %>
+10: <%= timer.giveTime()%>
+11: 
+12: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:13:22.692 SCHWERWIEGEND [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [11] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+8: 
+9: <h1>My First Heading</h1>
+10: <p>My first paragraph.</p>
+11: 	<% timeclass timer = new timeclass(); %>
+12: 	<%= timer.giveTime()%>
+13: 
+14: </body>
+
+
+An error occurred at line: [11] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+8: 
+9: <h1>My First Heading</h1>
+10: <p>My first paragraph.</p>
+11: 	<% timeclass timer = new timeclass(); %>
+12: 	<%= timer.giveTime()%>
+13: 
+14: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [11] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+8: 
+9: <h1>My First Heading</h1>
+10: <p>My first paragraph.</p>
+11: 	<% timeclass timer = new timeclass(); %>
+12: 	<%= timer.giveTime()%>
+13: 
+14: </body>
+
+
+An error occurred at line: [11] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+8: 
+9: <h1>My First Heading</h1>
+10: <p>My first paragraph.</p>
+11: 	<% timeclass timer = new timeclass(); %>
+12: 	<%= timer.giveTime()%>
+13: 
+14: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:15:35.006 SCHWERWIEGEND [http-nio-8080-exec-26] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [11] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+8: 
+9: <h1>My First Heading</h1>
+10: <p>My first paragraph.</p>
+11: 	<% timeclass timer = new timeclass(); %>
+12: 	<%= timer.giveTime()%>
+13: 
+14: </body>
+
+
+An error occurred at line: [11] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+8: 
+9: <h1>My First Heading</h1>
+10: <p>My first paragraph.</p>
+11: 	<% timeclass timer = new timeclass(); %>
+12: 	<%= timer.giveTime()%>
+13: 
+14: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [11] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+8: 
+9: <h1>My First Heading</h1>
+10: <p>My first paragraph.</p>
+11: 	<% timeclass timer = new timeclass(); %>
+12: 	<%= timer.giveTime()%>
+13: 
+14: </body>
+
+
+An error occurred at line: [11] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+8: 
+9: <h1>My First Heading</h1>
+10: <p>My first paragraph.</p>
+11: 	<% timeclass timer = new timeclass(); %>
+12: 	<%= timer.giveTime()%>
+13: 
+14: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:16:10.241 SCHWERWIEGEND [http-nio-8080-exec-24] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% timeclass timer = new timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% timeclass timer = new timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% timeclass timer = new timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% timeclass timer = new timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:17:22.367 SCHWERWIEGEND [http-nio-8080-exec-28] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% timeclass timer = new timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% timeclass timer = new timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+The import timeclass cannot be resolved
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% timeclass timer = new timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% timeclass timer = new timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:23:10.267 SCHWERWIEGEND [http-nio-8080-exec-38] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+Only a type can be imported. hello.java.Timeclass resolves to a package
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+Only a type can be imported. hello.java.Timeclass resolves to a package
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:24:30.527 SCHWERWIEGEND [http-nio-8080-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+Only a type can be imported. hello.java.Timeclass.Timeclass resolves to a package
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\work\Catalina\localhost\maxapp\org\apache\jsp\index_jsp.java]
+Only a type can be imported. hello.java.Timeclass.Timeclass resolves to a package
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:39:47.003 SCHWERWIEGEND [http-nio-8080-exec-51] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/maxapp] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Timeclass cannot be resolved to a type
+10: 
+11: <h1>My First Heading</h1>
+12: <p>My first paragraph.</p>
+13: <% Timeclass timer = new Timeclass(); %>
+14: 	<%= timer.giveTime()%>
+15: 
+16: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:531)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+03-May-2023 16:58:38.301 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+03-May-2023 16:58:38.301 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

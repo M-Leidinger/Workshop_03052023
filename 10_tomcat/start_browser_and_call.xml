@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	 <exec executable="./FirefoxPortable/FirefoxPortable.exe">
+		<arg value="localhost:8080/maxapp/index.jsp"/>
+    </exec>
+</project>

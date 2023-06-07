@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<echo>Lets compile</echo>
+	<javac srcdir="C:\Workshop_03052023\20_webjsp\WEB-INF\classes" destdir ="C:\Workshop_03052023\20_webjsp\WEB-INF\classes" ></javac>  
+	<echo>Lets war it</echo>
+	 <war destfile="maxapp.war" webxml="C:\Workshop_03052023\20_webjsp\WEB-INF\web.xml">
+		  <fileset dir="C:\Workshop_03052023\20_webjsp"/>
+		  <fileset dir="C:\Workshop_03052023\20_webjsp"/>
+		  <lib dir="C:\Workshop_03052023\20_webjsp\WEB-INF\lib">
+		  </lib>
+		  <classes dir="C:\Workshop_03052023\20_webjsp\WEB-INF\classes"/>
+	</war>
+	<echo>Jetzt verschieben</echo>
+	<move file="maxapp.war" todir="C:\Workshop_03052023\10_tomcat\apache-tomcat-9.0.74\apache-tomcat-9.0.74\webapps" />
+</project>
